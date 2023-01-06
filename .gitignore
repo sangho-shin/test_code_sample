@@ -1,0 +1,32 @@
+# reference : https://github.com/github/gitignore/blob/master/Python.gitignore
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+.ipynb_checkpoints/
+
+# C extensions
+*.so
+
+#pycharm project file
+.idea
+
+# custom path
+model
+logs
+temp/2
+train
+graph
+result_csv
+
+# config
+config.json
+resources/config/config-local.json
+resources/config/config-local_ext.json
+
+aimodule.egg-info/
+
+# Uncomment this line if you wish to ignore the project description file.
+# Typically, this file would be tracked if it contains build/dependency configurations:
+.project
